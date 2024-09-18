@@ -1,0 +1,129 @@
+body {
+    background-color: #2C2C2C;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 0 10px;
+    position: sticky;
+    top: 0%;
+}
+
+nav img {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #c03b3b;
+    font-weight: bold;
+}
+
+h3 {
+    color: #f1f2f4;
+    padding: 20px;
+}
+
+#projects1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.img {
+    background: url("img.jpeg") no-repeat center center/cover;
+    border-radius: 5%;
+    height: 30vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.img h4 {
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#map {
+    padding: 20px;
+}
+
+#map h2 {
+    color: white;
+}
+
+#map a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#map a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.jav {
+    background: url("download.webp") no-repeat center center/cover;
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute ;
+    background-color: rgba(113, 90, 90, 0.9);
+    gap: 5px;
+    height: 100vh;
+    width: 50vw;
+    top: 0px;
+    align-items: center;
+    justify-content: start;
+
+}
+@media only screen and (max-width: 425px) {
+    .none{
+        display: none;
+    }
+    #show{
+        display: flex !important ;
+    
+
+    }
+  }
